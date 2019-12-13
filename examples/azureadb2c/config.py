@@ -7,7 +7,7 @@ import os
 
 #load from package
 from oauthenticator.azureadb2c import AzureAdB2COAuthenticator, LocalAzureAdB2COAuthenticator
-c.JupyterHub.authenticator_class = LocalAzureAdB2COAuthenticator
+c.JupyterHub.authenticator_class = AzureAdB2COAuthenticator
 
 c.Application.log_level = 'DEBUG'
 

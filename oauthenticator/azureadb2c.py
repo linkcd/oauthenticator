@@ -18,7 +18,7 @@ from jupyterhub.auth import LocalAuthenticator
 
 from traitlets import Unicode, default
 
-from oauth2 import OAuthLoginHandler, OAuthenticator
+from .oauth2 import OAuthLoginHandler, OAuthenticator
 
 
 def azure_token_url():
